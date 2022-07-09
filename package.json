@@ -1,9 +1,14 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "name": "galaumang.github.io",
+  "description": "Personal Website",
   "version": "0.1.0",
-  "license": "0BSD",
+  "author": "Umang Gala",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galaumang/galaumang.github.io"
+  },
+  "private": true,
+  "license": "GPL-3.0",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -20,12 +25,5 @@
   },
   "devDependencies": {
     "prettier": "^2.7.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
