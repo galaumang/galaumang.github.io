@@ -34,3 +34,5 @@ jobs:
           git config --global user.email "toumangg@gmail.com"
           git config --global user.name "Umang Gala"
           npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
