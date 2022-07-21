@@ -30,4 +30,5 @@ jobs:
         run: ls -la && ls -la public
         
       - name: Deploy to github pages
-        run: npm run deploy
+        run: |
+          npm run deploy -- -u "galaumang <46402179+galaumang@users.noreply.github.com>"
