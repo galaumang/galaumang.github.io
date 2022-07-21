@@ -11,6 +11,7 @@
   "license": "GPL-3.0",
   "scripts": {
     "build": "gatsby build",
+    "deploy": "gh-pages -d public -b deploy",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
@@ -24,6 +25,7 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
   }
 }
