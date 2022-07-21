@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgalaumang_github_io=self.webpackChunkgalaumang_github_io||[]).push([[678],{6558:function(e,n,a){a.r(n),a.d(n,{default:function(){return t}});var u=a(7294);function t(){return u.createElement("h1",null,"Welcome to Umang Gala's personal website!")}}}]);
-//# sourceMappingURL=component---src-pages-index-js-fe74446ab7e4ac0b04fe.js.map

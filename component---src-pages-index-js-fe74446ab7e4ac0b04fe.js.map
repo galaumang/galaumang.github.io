@@ -1,1 +1,0 @@
-{"version":3,"file":"component---src-pages-index-js-fe74446ab7e4ac0b04fe.js","mappings":"0LAEe,SAASA,IACpB,OAAO","sources":["webpack://galaumang.github.io/./src/pages/index.js"],"sourcesContent":["import React from \"react\"\n\nexport default function Home() {\n    return <h1>Welcome to Umang Gala's personal website!</h1>\n}\n"],"names":["Home"],"sourceRoot":""}
