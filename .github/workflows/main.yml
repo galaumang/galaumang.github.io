@@ -1,4 +1,4 @@
-name: Build
+name: Build & Deploy
 
 on:
   push:
@@ -23,8 +23,11 @@ jobs:
       - name: Install Gatsby CLI
         run: npm install -g gatsby-cli
       
-      - name: Build
-        run: gatsby build
+      - name: Build the project
+        run: npm run build
       
       - name: Verify build
-        run: ls -la public
+        run: ls -la && ls -la public
+        
+      - name: Deploy to github pages
+        run: npm run deploy
